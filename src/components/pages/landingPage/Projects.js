@@ -1,14 +1,13 @@
 import React from 'react'
-import ProjectsSub from './ProjectsSub'
 
 import image01 from '../../../assets/webiste01.png'
 import image02 from '../../../assets/webiste02.png'
 import image03 from '../../../assets/webiste03.png'
 import image04 from '../../../assets/webiste04.png'
 import image05 from '../../../assets/webiste05.png'
+// import image06 from '../../assets/webiste06.png'
 import ProjectsSubLeft from './ProjectsSubLeft'
 import ProjectsSubRight from './ProjectsSubRight'
-// import image06 from '../../assets/webiste06.png'
 
 const Projects = (props) => {
     return (
@@ -20,19 +19,6 @@ const Projects = (props) => {
                     <hr className="w-10 h-1 mx-auto  bg-purple-500 border-0 rounded my-5"></hr>
                     <h3 className='text-xl text-center xl:mx-40 lg:mx-40 md:mx-40 mx-10 font-medium '>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</h3>
                 </div>
-                {/* <div className='xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-2'>
-                    <ProjectsSub laptopImage={image01} title='Dopefolio' description='Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally' />
-
-                    <ProjectsSub laptopImage={image02} title='Wilsonport' description='Wilsonport Wilsonport is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.' />
-
-                    <ProjectsSub laptopImage={image03} title='Dopefolio' description='Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally' />
-
-                    <ProjectsSub laptopImage={image04} title='Boreal Coffee Clone' description="I re-created the frontend of Boreal Coffee' s official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend." />
-
-                    <ProjectsSub laptopImage={image05} title='Crown Template' description='Crown is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.' />
-
-                </div> */}
-
 
                 <div>
                     <ProjectsSubLeft laptopImage={image01} link={'https://anunzio0786.site/'} />
@@ -63,7 +49,6 @@ const Projects = (props) => {
                 </div>
 
 
-
                 <div>
                     <ProjectsSubLeft laptopImage={image04} link={'http://anunzio0786.online/'} />
                 </div>
@@ -72,7 +57,6 @@ const Projects = (props) => {
 
                     <ProjectsSubRight title='Gobios' description='Welcome to "Gobios" - your personal fitness companion! Our innovative application is designed to help you stay on track and achieve your fitness goals. With a range of features, including workout plans, nutrition tracking, and personalized coaching, Gobios ensures that you have all the tools you need to lead a healthy and balanced lifestyle. Let us guide you on your journey to a fitter and happier you.' />
                 </div>
-
 
 
                 <div>
