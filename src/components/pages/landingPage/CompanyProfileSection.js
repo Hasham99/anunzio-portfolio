@@ -8,6 +8,7 @@ import image6 from '../../../assets/6.jpg'
 import image7 from '../../../assets/7.jpg'
 import image8 from '../../../assets/8.jpg'
 import image9 from '../../../assets/9.jpg'
+import image10 from '../../../assets/10.jpg'
 
 const CompanyProfileSection = () => {
     return (
@@ -17,10 +18,10 @@ const CompanyProfileSection = () => {
 
                 {/* Left Section */}
                 <div className=' xl:col-span-2 md:col-span-2 lg:col-span-2 mx-auto'>
-                    <h1 className='text-4xl font-bold mx-auto pt-32 text-center'>ABOUT ME</h1>
+                    <h1 className='text-4xl font-bold mx-auto pt-32 text-center'>Company Profile</h1>
 
                     <hr class="w-10 h-1 mx-auto bg-purple-500 border-0 rounded my-5"></hr>
-                    <h3 className='text-xl text-center xl:mx-40 md:mx-40 lg:mx-40 mx-5 font-medium '>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</h3>
+                    <h3 className='text-lg text-center xl:mx-10 md:mx-10 lg:mx-10 mx-3 xl:font-medium md:font-medium lg:font-medium font-regular '>Dear valued client, Congratulations on taking this significant step towards revitalizing your online presence. You are just moments away from transforming your digital identity. Below, you'll find our comprehensive company profile, encompassing our expertise in web development, app development, SEO, social media marketing, and more. Your journey to a refreshed and dynamic online presence begins here.</h3>
                 </div>
 
                 <div className='py-5 px-2'>
@@ -50,8 +51,9 @@ const CompanyProfileSection = () => {
                 <div className='py-5 px-2'>
                     <img src={image9} alt="" srcset="" />
                 </div>
-
-                {/* Right Section */}
+                <div className='py-5 px-2'>
+                    <img src={image10} alt="" srcset="" />
+                </div>
 
             </div >
 

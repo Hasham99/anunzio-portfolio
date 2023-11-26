@@ -10,14 +10,10 @@ const Footer = () => {
                 <div className=" mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div className=" md:flex md:justify-between ">
                         <div className=" mb-6 md:mb-0">
-                            <a href="#" className="flex items-center">
-
-                                {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">LOGO</span> */}
-                            </a>
                         </div>
                         <div className=" grid xl:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 col-span-1 gap-8 sm:gap-6  mx-auto">
                             <div className='mx-auto my-auto'>
-                                <Link>
+                                <Link to='/'>
                                     <img src={logo} className="xl:h-52 lg:h-52 md:h-40 sm:h-36 h-24 mb-3" alt="Logo" /></Link>
                             </div>
                             <div className='my-auto mx-auto xl:col-span-2 lg:col-span-2 md:col-span-2'>
