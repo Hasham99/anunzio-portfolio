@@ -10,7 +10,7 @@ import Buttons from './Buttons';
 
 const AccordionComp = () => {
     return (
-        <div className='max-w-[1200px] mx-auto pt-20'>
+        <div className='max-w-[1200px] mx-auto pt-10'>
             <Accordion className='bg-white'>
                 <Accordion.Panel>
                     <Accordion.Title>Headers</Accordion.Title>
