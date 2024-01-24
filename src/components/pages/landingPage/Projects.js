@@ -54,7 +54,7 @@ const Projects = (props) => {
 
 
                 <div>
-                    <ProjectsSubLeft laptopImage={image03} link={'https://albadwan.shop/'} />
+                    <ProjectsSubLeft laptopImage={image03} link={'https://jsonsgeneraltrading.com/wp2/'} />
                 </div>
 
                 <div className='my-auto'>
